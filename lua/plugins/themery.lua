@@ -10,7 +10,7 @@ require("themery").setup({
         "tokyonight-day",
         "tokyonight-moon",
         "gruvbox",
-        "habamax"
+        "vscode",
     },
     livePreview = true
 })
