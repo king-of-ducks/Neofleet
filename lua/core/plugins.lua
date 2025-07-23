@@ -22,6 +22,7 @@ require("lazy").setup({
         { "navarasu/onedark.nvim" },
         { "folke/tokyonight.nvim" },
         { "ellisonleao/gruvbox.nvim" },
+        { "Mofiqul/vscode.nvim" },
 
         { "akinsho/toggleterm.nvim" },
         {
