@@ -1,8 +1,8 @@
 # Requirements
-* Neovim 0.11+
-* Nerd Fonts
-* Ripgrep (for the 'live grep' feature)
-* Git
+* [Neovim 0.11+](https://neovim.io/)
+* [Nerd Fonts](https://nerdfonts.com)
+* [RipGrep](https://github.com/BurntSushi/ripgrep) (for live grep feature)
+* [Git](git-scm.com)
 
 # Installation
 ```bash
