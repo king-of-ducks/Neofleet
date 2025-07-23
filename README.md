@@ -14,11 +14,13 @@ git clone https://github.com/king-of-ducks/Neofleet.git ~/.config/nvim
 ```
 
 ## Keymaps
-<C-q> - quit Nvim
-<C-s> - save file
-<M-l>, <M-RIGHT> - move to next tab
-<M-h>, <M-LEFT> - move to previous tab
-<SPC>l - Open Lazy.nvim
-<SPC>m - Open Mason
-<SPC>t - Open theme selector
-<SPC>f - Open Telescope
+`<C-q>` - quit Nvim<br>
+`<C-s>` - save file<br>
+`<C-n>` - open Neotree<br>
+`<C-t>` - open terminal window<br>
+`<M-l>`, `<M-RIGHT>` - move to next tab<br>
+`<M-h>`, `<M-LEFT>` - move to previous tab<br>
+`<SPACE>l` - Open Lazy.nvim<br>
+`<SPACE>m` - Open Mason<br>
+`<SPACE>t` - Open theme selector<br>
+`<SPACE>f` - Open Telescope<br>
