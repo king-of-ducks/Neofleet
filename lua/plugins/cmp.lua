@@ -7,7 +7,7 @@ cmp.setup({
         end,
     },
     window = {
-        completion = cmp.config.window.bordered(),
+        -- completion = cmp.config.window.bordered(),
         -- documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
@@ -46,3 +46,4 @@ cmp.setup.cmdline(':', {
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 require('lspconfig')['pyright'].setup { capabilities = capabilities }
+require('lspconfig')['clangd'].setup { capabilities = capabilities }
