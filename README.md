@@ -4,7 +4,7 @@ Neofleet is a blazing fast, user-friendly neovim config for C++ and Python devel
 # Getting started 🚀
 ## Quick Links
 * [Requirements](#requirements)<br>
-* [Installation](#installation)<br>
+* [Installation](#installation-unix)<br>
 * [Usage](#usage)<br>
   * [Keymaps](#keymaps)
 
@@ -14,10 +14,11 @@ Neofleet is a blazing fast, user-friendly neovim config for C++ and Python devel
 * [RipGrep](https://github.com/BurntSushi/ripgrep) (for live grep feature)
 * [Git](https://git-scm.com)
 
-## Installation
+## Installation (unix)
 ```bash
 git clone https://github.com/king-of-ducks/Neofleet.git ~/.config/nvim
 ```
+Warning: do not delete any of the files! If you do, you won't be able to `git pull` to update config!
 # Usage
 ## Keymaps
 `<C-q>` - quit Nvim<br>
