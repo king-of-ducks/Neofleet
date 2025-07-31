@@ -20,13 +20,22 @@ require('lualine').setup {
                         return ' replace'
                     elseif str == 'SELECT' then
                         return ' select'
+                    elseif str == 'S-LINE' then
+                        return ' s-line'
+                    elseif str == 'S-BLOCK' then
+                        return ' s-block'
                     elseif str == 'O-PENDING' then
                         return ' o-pending'
+                    elseif str == 'TERMINAL' then
+                        return ' terminal'
                     else
                         return str
                     end
                 end
             }
-        }
+        },
+        -- lualine_x = {},
+        lualine_y = {},
+        -- lualine_z = {},
     }
 }

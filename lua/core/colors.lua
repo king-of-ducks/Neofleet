@@ -9,6 +9,10 @@ require('onedark').setup({
     -- style = 'warmer'
 })
 
+require('catppuccin').setup({
+    italic = false
+})
+
 function setColor(color)
     color = color or "habamax"
     vim.cmd.colorscheme(color)
