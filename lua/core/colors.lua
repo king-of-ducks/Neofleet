@@ -69,4 +69,4 @@ function setColor(color)
   vim.cmd.colorscheme(color)
 end
 
-setColor('catppuccin-mocha')
+setColor('tokyonight-moon')
