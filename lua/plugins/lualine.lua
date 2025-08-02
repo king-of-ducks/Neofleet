@@ -1,4 +1,4 @@
-require('lualine').setup {
+require('lualine').setup({
   sections = {
     lualine_a = {
       {
@@ -42,4 +42,4 @@ require('lualine').setup {
     section_separators = { left = '', right = '' },
     component_separators = { left = '', right = '' },
   },
-}
+})

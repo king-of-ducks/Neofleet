@@ -154,6 +154,13 @@ require("lazy").setup({
         'echasnovski/mini.icons',
         'nvim-lua/plenary.nvim'
       }
+    },
+    {
+      "lukas-reineke/indent-blankline.nvim",
+      main = "ibl",
+      ---@module "ibl"
+      ---@type ibl.config
+      opts = {},
     }
   },
   install = { colorscheme = { "catppuccin-mocha" } },
