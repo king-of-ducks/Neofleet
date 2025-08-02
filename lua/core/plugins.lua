@@ -59,6 +59,7 @@ require("lazy").setup({
         end
       end
     },
+    { "brenoprata10/nvim-highlight-colors" },
     {
       'saghen/blink.cmp',
       dependencies = { 'rafamadriz/friendly-snippets' },
