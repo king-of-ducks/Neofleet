@@ -11,6 +11,7 @@ Neofleet is a blazing fast, user-friendly neovim config for C++ and Python devel
 ## Requirements
 * [Neovim 0.11+](https://neovim.io/)
 * [Nerd Fonts](https://nerdfonts.com)
+* 24-bit color terminal (iTerm2, alacritty, kitty, etc.)
 * [RipGrep](https://github.com/BurntSushi/ripgrep) (for live grep feature)
 * [Git](https://git-scm.com)
 
