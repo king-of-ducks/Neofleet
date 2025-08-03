@@ -5,7 +5,7 @@ vim.g.maplocalleader = " "
 
 map('n', ';', ':')
 map('n', '<C-q>', ':q!<CR>', { silent = true })
-map('n', '<C-s>', ':w!<CR>')
+map({'n', 'i', 'v'}, '<C-s>', '<cmd> w!<CR>')
 
 map('n', '<M-l>', ':bnext<CR>', { silent = true })
 map('n', '<M-h>', ':bprevious<CR>', { silent = true })
