@@ -1,11 +1,8 @@
 # <p align=center>Neofleet ✨</p>
+<p align=center>[Requirements](#requirements) • [Installation](#installation-unix) • [Usage](#usage)</p>
 Neofleet is a blazing fast, user-friendly neovim config for C++ and Python developers. It is aimed for people who wants fast and nice-looking IDE. It's free and can be modified as you want.
 
 # Getting started 🚀
-## Quick Links
-* [Requirements](#requirements)<br>
-* [Installation](#installation-unix)<br>
-* [Usage](#usage)<br>
 
 ## Requirements
 * [Neovim 0.11+](https://neovim.io/)
@@ -15,10 +12,20 @@ Neofleet is a blazing fast, user-friendly neovim config for C++ and Python devel
 * [Git](https://git-scm.com)
 
 ## Installation (unix)
+Delete previous nvim config:
+```bash
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+```
+<br>
+Clone new config:
 ```bash
 git clone https://github.com/king-of-ducks/Neofleet.git ~/.config/nvim
+nvim
 ```
-Warning: do not delete any of the files! If you do, you won't be able to `git pull` to update config!
+<br>
+After plugin installation was complete, run `:MasonInstall clangd pyright lua-language-server` to install all LSP servers
 # Usage
 ## Keymaps
 `<C-q>` - quit Nvim<br>

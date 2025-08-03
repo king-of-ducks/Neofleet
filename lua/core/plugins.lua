@@ -41,7 +41,23 @@ require("lazy").setup({
         "nvim-tree/nvim-web-devicons"
       }
     },
-    { "mason-org/mason.nvim" },
+    {
+      "williamboman/mason.nvim",
+      lazy = true,
+      opts = {
+        automatic_installation = true,
+        ensure_installed = {
+          lsp = {
+            "clangd",
+            "pyright",
+            "lua-language-server"
+          }
+        }
+      },
+      config = function()
+        require('mason').setup()
+      end,
+    },
     { "nvim-telescope/telescope.nvim" },
     {
       'neovim/nvim-lspconfig',
