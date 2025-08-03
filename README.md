@@ -1,4 +1,4 @@
-# Neofleet ✨
+# <p align=center>Neofleet ✨</p>
 Neofleet is a blazing fast, user-friendly neovim config for C++ and Python developers. It is aimed for people who wants fast and nice-looking IDE. It's free and can be modified as you want.
 
 # Getting started 🚀
@@ -6,7 +6,6 @@ Neofleet is a blazing fast, user-friendly neovim config for C++ and Python devel
 * [Requirements](#requirements)<br>
 * [Installation](#installation-unix)<br>
 * [Usage](#usage)<br>
-  * [Keymaps](#keymaps)
 
 ## Requirements
 * [Neovim 0.11+](https://neovim.io/)
