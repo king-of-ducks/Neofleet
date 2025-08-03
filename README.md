@@ -11,7 +11,7 @@
 [Requirements](#requirements) • [Installation](#installation-unix) • [Usage](#usage)
 </h4><br>
 
-Neofleet is a blazing fast, user-friendly neovim config for C++ and Python developers. It is aimed for people who wants fast and nice-looking IDE. It's free and can be modified as you want.
+Neofleet is a blazing fast, user-friendly neovim config for C++ and Python developers. It is aimed for people who wants fast and nice-looking IDE. It's free and can be modified as you want. *Shiny as a diamond.*
 
 # Getting started 🚀
 
