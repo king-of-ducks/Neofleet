@@ -1,10 +1,11 @@
-<div id="user-content-toc">
+<!--div id="user-content-toc">
   <ul align="center" style="list-style: none;">
     <summary>
       <h1>✨ Neofleet ✨</h1>
     </summary>
   </ul>
-</div>
+</div>-->
+<h1 align=center>✨ Neofleet ✨</h1>
 <h4 align=center>
   
 [Requirements](#requirements) • [Installation](#installation-unix) • [Usage](#usage)
