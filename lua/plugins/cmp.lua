@@ -1,6 +1,9 @@
 require("blink.cmp").setup({
 	completion = {
 		menu = {
+      enabled = true,
+      min_width = 15,
+      max_height = 10,
 			draw = {
 				components = {
 					-- customize the drawing of kind icons

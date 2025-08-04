@@ -97,6 +97,9 @@ require("lazy").setup({
         },
         completion = {
           menu = {
+            enabled = true,
+            min_width = 20,
+            max_height = 20,
             winhighlight = "Normal:BlinkCmpDoc,FloatBorder:BlinkCmpDocBorder,CursorLine:BlinkCmpDocCursorLine,Search:None",
             border = 'rounded',
             draw = {
