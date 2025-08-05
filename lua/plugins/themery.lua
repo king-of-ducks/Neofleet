@@ -11,6 +11,7 @@ require("themery").setup({
     "tokyonight-moon",
     "gruvbox",
     "vscode",
+    "embark",
     "iceberg-dark",
     "iceberg-light"
   },

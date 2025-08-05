@@ -24,6 +24,7 @@ require("lazy").setup({
     { "ellisonleao/gruvbox.nvim" },
     { "Mofiqul/vscode.nvim" },
     { "oahlen/iceberg.nvim" },
+    { "embark-theme/vim" },
 
     { "akinsho/toggleterm.nvim" },
     {
@@ -181,7 +182,8 @@ require("lazy").setup({
       ---@module "ibl"
       ---@type ibl.config
       opts = {},
-    }
+    },
+    { "folke/which-key.nvim" }
   },
   install = { colorscheme = { "catppuccin-mocha" } },
   checker = { enabled = true },

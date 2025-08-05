@@ -1,1 +1,7 @@
-require("telescope").setup()
+require("telescope").setup({
+  defaults = {
+    winbar = {
+      enabled = false,
+    },
+  }
+})
