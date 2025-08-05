@@ -30,10 +30,18 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 ```
 
-Clone new config and run nvim:
-
+Clone new config:
 ```bash
 git clone https://github.com/king-of-ducks/Neofleet.git ~/.config/nvim
+```
+
+Delete `.git` folder so you can merge it with your config:
+```bash
+rm -rf ~/.config/nvim/.git
+```
+
+Run nvim:
+```bash
 nvim
 ```
 
