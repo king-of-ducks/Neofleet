@@ -25,6 +25,7 @@ require("lazy").setup({
     { "Mofiqul/vscode.nvim" },
     { "oahlen/iceberg.nvim" },
     { "embark-theme/vim" },
+    { "doums/darcula" },
 
     { "akinsho/toggleterm.nvim" },
     {

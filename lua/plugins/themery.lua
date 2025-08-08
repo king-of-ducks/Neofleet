@@ -10,6 +10,7 @@ require("themery").setup({
     "tokyonight-day",
     "tokyonight-moon",
     "gruvbox",
+    "darcula",
     "vscode",
     "embark",
     "iceberg-dark",
