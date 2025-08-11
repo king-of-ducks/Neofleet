@@ -25,7 +25,6 @@ require("lazy").setup({
     { "Mofiqul/vscode.nvim" },
     { "oahlen/iceberg.nvim" },
     { "embark-theme/vim" },
-    { "doums/darcula" },
 
     { "akinsho/toggleterm.nvim" },
     {
@@ -165,10 +164,7 @@ require("lazy").setup({
       "rcarriga/nvim-notify",
       lazy = false
     },
-    {
-      "zaldih/themery.nvim",
-      lazy = false,
-    },
+    { 'lmantw/themify.nvim' },
     { "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate" },
     {
       'goolord/alpha-nvim',

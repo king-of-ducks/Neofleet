@@ -34,9 +34,8 @@ require('lualine').setup({
         end
       }
     },
-    -- lualine_x = {},
     lualine_y = {},
-    -- lualine_z = {},
+    lualine_c = {},
   },
   options = {
     section_separators = { left = '', right = '' },

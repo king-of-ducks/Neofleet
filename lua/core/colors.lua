@@ -5,7 +5,13 @@ require('onedark').setup({
 })
 
 require('catppuccin').setup({
-  no_italic = true
+  no_italic = true,
+  color_overrides = {
+    latte = {},
+    frappe = {},
+    macchiato = {},
+    mocha = {},
+  }
 })
 
 require('gruvbox').setup({
@@ -57,6 +63,10 @@ require("tokyonight").setup({
       fg = c.bg_dark,
     }
   end,
+  on_colors = function(colors)
+    colors.hint = colors.orange
+    colors.error = "#ff0000"
+  end
 })
 
 require("nvim-highlight-colors").setup {
