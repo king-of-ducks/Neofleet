@@ -51,15 +51,15 @@ After plugin installation was complete, run `:MasonInstall clangd pyright lua-la
 ## Keymaps
 `<C-q>` - quit Nvim<br>
 `<C-s>` - save file<br>
-`<Leader>nn` - open left Neotree<br>
-`<Leader>nf` - open floating Neotree<br>
-`<C-t>` - open terminal window<br>
 `<M-l>`, `<M-RIGHT>` - move to next tab<br>
 `<M-h>`, `<M-LEFT>` - move to previous tab<br>
-`<SPACE>l` - Open Lazy.nvim<br>
-`<SPACE>m` - Open Mason<br>
-`<SPACE>t` - Open theme selector<br>
-`<SPACE>ff` - Find Files<br>
-`<SPACE>fg` - Live Grep<br>
-`<SPACE>fb` - Builtin Telescope<br>
-
+`<Leader>nn` - open left Neotree<br>
+`<Leader>nn` - open floating Neotree<br>
+`<Leader>l` - open Lazy<br>
+`<Leader>m` - open Mason<br>
+`<Leader>t` - open theme selector<br>
+`<Leader>ff` - find files<br>
+`<Leader>fg` - find text<br>
+`<Leader>fb` - builtin telescope<br>
+`<Leader>c` - open terminal window<br>
+`<Leader>g` - open Lazygit<br>

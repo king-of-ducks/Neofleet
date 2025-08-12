@@ -51,16 +51,16 @@ require("tokyonight").setup({
       fg = prompt,
     }
     hl.TelescopePromptTitle = {
-      bg = prompt,
-      fg = prompt,
+      bg = "#7AA2F7",
+      fg = "#16161E",
     }
     hl.TelescopePreviewTitle = {
       bg = c.bg_dark,
       fg = c.bg_dark,
     }
     hl.TelescopeResultsTitle = {
-      bg = c.bg_dark,
-      fg = c.bg_dark,
+      bg = "#3B4161",
+      fg = "#7AA2F7",
     }
   end,
   on_colors = function(colors)

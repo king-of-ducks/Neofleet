@@ -28,6 +28,14 @@ require("lazy").setup({
 
     { "akinsho/toggleterm.nvim" },
     {
+      "folke/snacks.nvim",
+      ---@type snacks.Config
+      opts = {
+        terminal = {},
+        lazygit = {}
+      }
+    },
+    {
       "nvim-neo-tree/neo-tree.nvim",
       branch = "v3.x",
       dependencies = {
