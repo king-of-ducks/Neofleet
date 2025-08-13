@@ -6,7 +6,7 @@ require('core.mappings')
 
 -- Plugin setup
 require('plugins.bufferline')
-require('plugins.toggleterm')
+require('plugins.noice')
 require('plugins.mason')
 require('plugins.cmp')
 require('plugins.lualine')

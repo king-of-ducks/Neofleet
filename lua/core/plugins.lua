@@ -26,7 +26,7 @@ require("lazy").setup({
     { "oahlen/iceberg.nvim" },
     { "embark-theme/vim" },
 
-    { "akinsho/toggleterm.nvim" },
+    { "folke/noice.nvim" },
     {
       "folke/snacks.nvim",
       ---@type snacks.Config
