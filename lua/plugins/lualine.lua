@@ -34,6 +34,11 @@ require('lualine').setup({
         end
       }
     },
+    lualine_z = {
+      function()
+        return os.date(" %H:%M")
+      end,
+    },
     lualine_y = {},
     lualine_c = {},
   },
