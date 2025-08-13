@@ -20,12 +20,12 @@ dashboard.section.header.val = {
 }
 
 dashboard.section.buttons.val = {
-  dashboard.button("e", "󰝒 New file", ":ene<CR>:lua print(' ')<CR>"),
-  dashboard.button("f", "󰱽 Find file", ":Telescope find_files<CR>"),
-  dashboard.button("g", "󱩾 Live Grep", ":Telescope live_grep<CR>"),
-  dashboard.button("l", "󰒲 Lazy", ":Lazy<CR>:lua print(' ')<CR>"),
-  dashboard.button("c", " Config", ":e $MYVIMRC<CR>:lua print(' ')<CR>"),
-  dashboard.button("q", " Quit Neovim", ":qa!<CR>"),
+  dashboard.button("e", "󰝒 New file", "<cmd> silent! ene<CR>"),
+  dashboard.button("f", "󰱽 Find file", "<cmd> silent! Telescope find_files<CR>"),
+  dashboard.button("g", "󱩾 Live Grep", "<cmd> silent! Telescope live_grep<CR>"),
+  dashboard.button("l", "󰒲 Lazy", "<cmd> silent! Lazy<CR>"),
+  dashboard.button("c", " Config", "<cmd> silent! e $MYVIMRC<CR>"),
+  dashboard.button("q", " Quit Neovim", "<cmd> silent! qa!<CR>"),
 }
 
 alpha.setup(dashboard.config)
