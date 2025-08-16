@@ -1,9 +1,3 @@
--- require("themery").setup({
---   themes = {
---   },
---   livePreview = true
--- })
-
 require('themify').setup({
   activity = true,
   async = false,
