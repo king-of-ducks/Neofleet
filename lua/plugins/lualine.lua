@@ -1,7 +1,7 @@
 require('lualine').setup({
   options = {
-    component_separators = '',
-    section_separators = { left = '', right = '' },
+    component_separators = { left = '', right = '' },
+    section_separators = { left = '', right = '' },
   },
   sections = {
     lualine_a = {
@@ -36,7 +36,7 @@ require('lualine').setup({
             return str
           end
         end,
-        separator = { left = '' }, right_padding = 2, left_padding = 2
+        separator = { left = '', right = '' }, right_padding = 2, left_padding = 2
       } 
     },
     lualine_b = { 'filename', 'lsp' },
@@ -57,7 +57,7 @@ require('lualine').setup({
         function()
           return os.date(" %H:%M:%S")
         end,
-        separator = { right = '' }, right_padding = 1, left_padding = 1
+        separator = { right = '', left = '' }, right_padding = 1, left_padding = 1
       }
     },
   },
