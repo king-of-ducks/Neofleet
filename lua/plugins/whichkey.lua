@@ -1,6 +1,6 @@
 local wk = require("which-key")
 wk.setup({
-  -- preset = "helix"
+  preset = "helix"
 })
 
 wk.add({
