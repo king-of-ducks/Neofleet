@@ -32,7 +32,7 @@ require("lazy").setup({
       ---@type snacks.Config
       opts = {
         terminal = {},
-        lazygit = {}
+        lazygit = {},
       }
     },
     {
@@ -73,7 +73,6 @@ require("lazy").setup({
         require('mason').setup()
       end,
     },
-    { "nvim-telescope/telescope.nvim" },
     {
       'neovim/nvim-lspconfig',
       dependencies = { 'saghen/blink.cmp' },
