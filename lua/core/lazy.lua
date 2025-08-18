@@ -19,7 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { "catppuccin/nvim" },
-    { "navarasu/onedark.nvim" },
+    { "king-of-ducks/onedark-sep" },
     { "folke/tokyonight.nvim" },
     { "ellisonleao/gruvbox.nvim" },
     { "Mofiqul/vscode.nvim" },
